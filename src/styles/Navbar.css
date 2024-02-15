@@ -1,0 +1,21 @@
+.navBar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 1rem;
+    background-color: blueviolet;
+}
+.navBar ul {
+    display: flex;
+    flex-direction: row;
+}
+.navBar ul li{
+    display: flex;
+    text-decoration: none;
+    flex-direction: row;
+    padding: 0rem 1rem;
+    color: white;
+}
+.navBar ul a{
+    text-decoration: none;
+}

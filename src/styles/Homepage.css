@@ -1,0 +1,47 @@
+.wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: black;
+    
+}
+
+.header{
+    text-align: center;
+    font-family: "Protest Strike", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+  margin-top: 10%;
+}
+
+.main-section{
+padding: 0 3rem;
+
+}
+.bodySection{
+    font-family: "Protest Strike", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-top: 150px;
+  color: white;
+width: 100%;
+
+}
+.sec-1 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center; /* Horizontally center grid items */
+    align-items: center; /* Vertically center grid items */
+    padding: 0 2rem;
+  }
+.card-1,.card-2,.card-3{
+    background-color: white;
+    color: black;
+    width: 33.33%;
+    padding: 1rem;
+    border-radius: 15px;
+    justify-self: center; /* Horizontally center grid item */
+  align-self: center; /* Vertically center grid item */
+}
